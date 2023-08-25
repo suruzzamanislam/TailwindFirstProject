@@ -7,11 +7,55 @@
     <!-- css link -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-[#2B2D33]">
+
+    <!-- navbar -->
     
-    <h1>Hello world</h1>
-    <h3>Hello world</h3>
-    <h6>Hello world</h6>
+    <nav class="bg-[#2B2D33] shadow-xl">
+        <div class="container mx-auto">
+            <div class="sm:flex items-center justify-between py-5 text-center">
+                <div class="mb-3">
+                    <a class="sm:text-3xl font-bold text-2xl text-white" href="#"><span class="text-[#F65023]">S</span>mart Cod<span class="text-[#F65023]">ers</span></a>
+                </div>
+                <ul class="sm:flex text-xl text-white border-t sm:border-none">
+                    <li class="mt-4 sm:mt-0">
+                        <a class="p-3 text-[#F65023]" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="p-3 hover:text-[#F65023]" href="#">Products</a>
+                    </li>
+                    <li>
+                        <a class="p-3 hover:text-[#F65023]" href="#">Blogs</a>
+                    </li>
+                    <li>
+                        <a class="p-3 hover:text-[#F65023]" href="#">Protfolio</a>
+                    </li>
+                    <li>
+                        <a class="p-3 hover:text-[#F65023]" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header section -->
+
+    <header>
+        <div class="container mx-auto border border-indigo-600 border-t-0 h-[80vh] px-100 pt-10  text-white sm:flex justify-around items-center text-center">
+            <div>
+                <h1 class="text-2xl sm:text-5xl mb-5 sm:mb-16">Smart Coders: Learn <br> Programming</h1>
+                <button class="bg-indigo-600 hover:bg-indigo-800 px-7 py-3 rounded-full text-xl shadow-xl">Join:Programming Shikbho
+                    <svg class="w-7 inline-block text-black ml-2 animate-ping" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                      </svg>
+                      
+                </button>
+            </div>
+            <div>
+                <img class="animate-pulse" src="img/hero-img.png" alt="">
+            </div>
+        </div>
+    </header>
 
 
 
